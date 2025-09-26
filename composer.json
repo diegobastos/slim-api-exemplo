@@ -1,0 +1,30 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.7",
+        "vlucas/phpdotenv": "^5.6",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.1",
+        
+        "illuminate/database": "^12.18",
+        "illuminate/events": "^12.18",
+        "illuminate/support": "^12.18",
+        "firebase/php-jwt": "^6.11",
+        "illuminate/pagination": "^12.30"
+    },
+    "autoload": {
+        "psr-4": {
+            "Utils\\": "Utils/",
+            "Services\\": "Services/",
+            "Middlewares\\": "Middlewares/",
+            "Models\\": "Models/"
+        }
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public/",
+        "dump": "composer dump-autoload"
+    }
+}

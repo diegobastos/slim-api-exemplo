@@ -1,0 +1,4 @@
+/vendor
+composer.lock
+_.README
+*.tmp
