@@ -11,9 +11,15 @@ Projeto de Exemplo utilizando o microframework Slim (PHP) e o ORM Eloquent que r
 ### Estrutura do Projeto:
 ---
 /api
-  |_ Middlewares (para uso nas rotas)
-  |_ Models (modelos de dados ORM Eloquent)
-  |_ routes (roteamento para os controllers e uso de middleware de autentitação)
-  |_ Services (ações e regras de negócio chamadas pelos controllers)
-  |_ source (arquivos de conexão com banco de dados, carregamento: rotas, middlewares, startaup da api)
-  |_ public (arquivo front controller para a public da hospedagem)
+├── Middlewares
+│   └── (para uso nas rotas)
+├── Models
+│   └── (modelos de dados ORM Eloquent)
+├── routes
+│   └── (roteamento para os controllers e uso de middleware de autenticação)
+├── Services
+│   └── (ações e regras de negócio chamadas pelos controllers)
+├── source
+│   └── (arquivos de conexão com banco de dados, carregamento: rotas, middlewares, startup da API)
+└── public
+    └── (arquivo front controller para a public da hospedagem)
