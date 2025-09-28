@@ -1,2 +1,9 @@
 ### Slim PHP Restful
-Projeto de Exemplo utilizando o microframework Slim (PHP) e o ORM Eloquent.
+Projeto de Exemplo utilizando o microframework Slim (PHP) e o ORM Eloquent que registra usuários, endereços e tarefas.
+
+# Instruções para inicialização:
+---
+1. Instale o PHP e o Composer
+2. execute  'composer install' para instalar as dependências
+3. execute composer start para executar a api
+4. abra o arquivo API Tasks.postman_collection.json no postman para testar os endpoints
